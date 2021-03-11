@@ -45,6 +45,6 @@ class ceph::osds(
     $sysctl_settings = {
       'kernel.pid_max' => { value => $pid_max },
     }
-    ensure_resources(sysctl::value,$sysctl_settings)
+    ensure_resources(sysctl, $sysctl_settings)
   }
 }
