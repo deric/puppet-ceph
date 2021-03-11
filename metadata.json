@@ -76,11 +76,6 @@
         {
             "name": "openstack/openstacklib",
             "version_requirement": ">=9.0.0"
-        },
-        {
-            "name": "openstack/keystone",
-            "version_requirement": ">=9.0.0"
         }
-
     ]
 }
